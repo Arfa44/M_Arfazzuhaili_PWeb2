@@ -38,9 +38,9 @@ Kelas abstrak Pengguna_Abs didefinisikan dengan metode abstrak aksesFitur().
 Mahasiswa_Abs dan Dosen_Abs mewarisi dari class Pengguna_Abs
 Mahasiswa_Abs dan Dosen_Abs mengimplementasikan metode tersebut.
 
-##Penjelasan jobsheet 3
+## Penjelasan jobsheet 3
 
-###Penjelasan Kode file jobsheet3.php
+### Penjelasan Kode file jobsheet3.php
 1. Kelas Person
 Tujuan: Sebagai kelas induk dari Dosen dan Mahasiswa.
 Atribut:
@@ -92,7 +92,7 @@ Tujuan: Mengimplementasikan kelas Course untuk kursus offline.
 Metode:
 getCourseDetails(): Mengembalikan detail tentang kursus offline.
 
-###penjelasan kode file tgs_kasus.php
+### penjelasan kode file tgs_kasus.php
 1. Kelas Abstrak Jurnal:
 Kelas ini memiliki metode abstrak ajukanJurnal(), yang harus diimplementasikan oleh kelas turunan.
 2. Kelas Person:
@@ -107,7 +107,7 @@ Memiliki atribut privat nim dan metode getNim() untuk mendapatkan nilai NIM.
 Mengimplementasikan metode ajukanJurnal() untuk memberikan cara pengajuan jurnal khusus untuk mahasiswa
 
 
-Cara Menjalankan:
+## Cara Menjalankan:
 1. Simpan kode di atas dalam file dengan ekstensi .php, misalnya jobsheet1.php.
 2. Hidupkan server lokal dulu, bisa menggunakan Xampp,Laragon atau sejenisnya.
 3. Buka terminal atau command prompt.
