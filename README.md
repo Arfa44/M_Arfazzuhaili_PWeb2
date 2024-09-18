@@ -48,7 +48,7 @@ Atribut nim di kelas Mahasiswa dan nidn di kelas Dosen dilindungi dengan modifie
 Getter dan setter disediakan untuk mengakses dan mengubah nilai atribut ini.
 4. Abstraction:
 kelas abstrak Jurnal dan implementasikan konsep Abstraction dengan membuat kelas turunan JurnalDosen dan JurnalMahasiswa yang masing-masing memiliki cara tersendiri untuk mengelola pengajuan jurnal.
-Kelas abstrak Jurnal memiliki metode abstrak manageSubmission(), yang diimplementasikan di kelas JurnalDosen dan JurnalMahasiswa dengan cara masing-masing.
+Kelas abstrak Jurnal memiliki metode abstrak pengajuanJurnal(), yang diimplementasikan di kelas JurnalDosen dan JurnalMahasiswa dengan cara masing-masing.
 Kelas Course:
 Kelas abstrak ini memiliki metode abstrak getCourseDetails(), yang diimplementasikan oleh kelas OnlineCourse dan OfflineCourse untuk memberikan detail yang sesuai.
 
