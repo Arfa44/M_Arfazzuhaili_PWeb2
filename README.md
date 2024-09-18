@@ -38,20 +38,56 @@ Mahasiswa_Abs dan Dosen_Abs mengimplementasikan metode tersebut.
 
 ##Penjelasan jobsheet 3
 ###Penjelasan Kode file jobsheet3.php
-1. Inheritance:
-Kelas Person adalah induk dari Dosen dan Mahasiswa. yang memiliki atribut name dan metode getName().
-Kelas Mahasiswa dan Dosen mewarisi dari Person, sehingga keduanya dapat menggunakan metode getName() dan setName().
-2. Polymorphism:
-Metode getRole() didefinisikan dalam kelas Person dan dioverride di kelas Mahasiswa dan Dosen untuk menampilkan peran yang berbeda.
-3. Encapsulation:
-Encapsulation untuk melindungi atribut nidn di kelas Dosen dan nim dikelas Mahasiswa.
-Atribut nim di kelas Mahasiswa dan nidn di kelas Dosen dilindungi dengan modifier akses private.
-Getter dan setter disediakan untuk mengakses dan mengubah nilai atribut ini.
-4. Abstraction:
-kelas abstrak Jurnal dan implementasikan konsep Abstraction dengan membuat kelas turunan JurnalDosen dan JurnalMahasiswa yang masing-masing memiliki cara tersendiri untuk mengelola pengajuan jurnal.
-Kelas abstrak Jurnal memiliki metode abstrak pengajuanJurnal(), yang diimplementasikan di kelas JurnalDosen dan JurnalMahasiswa dengan cara masing-masing.
-Kelas Course:
-Kelas abstrak ini memiliki metode abstrak getCourseDetails(), yang diimplementasikan oleh kelas OnlineCourse dan OfflineCourse untuk memberikan detail yang sesuai.
+1. Kelas Person
+Tujuan: Sebagai kelas induk dari Dosen dan Mahasiswa.
+Atribut:
+protected $name: Atribut ini dapat diakses oleh kelas anak (subclass), tetapi tidak dapat diakses langsung dari luar kelas.
+Metode:
+getName(): Mengembalikan nama.
+setName($name): Mengatur nilai nama.
+getRole(): Mengembalikan string "Person". Metode ini akan dioverride di kelas turunan.
+2. Kelas Mahasiswa
+Tujuan: Mewarisi dari Person dan merepresentasikan mahasiswa.
+Atribut:
+private $nim: Atribut ini hanya dapat diakses melalui metode getter dan setter.
+Metode:
+getNim(): Mengembalikan nilai NIM.
+setNim($nim): Mengatur nilai NIM.
+getName(): Override dari metode getName() di kelas induk untuk menambahkan awalan "Mahasiswa: ".
+getRole(): Override untuk mengembalikan "Mahasiswa".
+3. Kelas Dosen
+Tujuan: Mewarisi dari Person dan merepresentasikan dosen.
+Atribut:
+private $nidn: Atribut ini juga hanya dapat diakses melalui metode getter dan setter.
+Metode:
+getNidn(): Mengembalikan nilai NIDN.
+setNidn($nidn): Mengatur nilai NIDN.
+getName(): Override untuk menambahkan awalan "Dosen: ".
+getRole(): Override untuk mengembalikan "Dosen".
+4. Kelas Abstrak Jurnal
+Tujuan: Menyediakan kerangka untuk kelas-kelas yang mengelola pengajuan jurnal.
+Metode:
+pengajuanJurnal(): Metode abstrak yang harus diimplementasikan di kelas turunan.
+5. Kelas JurnalDosen
+Tujuan: Mengimplementasikan kelas Jurnal untuk dosen.
+Metode:
+pengajuanJurnal(): Mengembalikan string yang menjelaskan proses pengajuan jurnal untuk dosen.
+6. Kelas JurnalMahasiswa
+Tujuan: Mengimplementasikan kelas Jurnal untuk mahasiswa.
+Metode:
+pengajuanJurnal(): Mengembalikan string yang menjelaskan proses pengajuan jurnal untuk mahasiswa.
+7. Kelas Abstrak Course
+Tujuan: Menyediakan kerangka untuk kelas-kelas yang mengelola kursus.
+Metode:
+getCourseDetails(): Metode abstrak yang harus diimplementasikan di kelas turunan.
+8. Kelas OnlineCourse
+Tujuan: Mengimplementasikan kelas Course untuk kursus online.
+Metode:
+getCourseDetails(): Mengembalikan detail tentang kursus online.
+9. Kelas OfflineCourse
+Tujuan: Mengimplementasikan kelas Course untuk kursus offline.
+Metode:
+getCourseDetails(): Mengembalikan detail tentang kursus offline.
 
 ###penjelasan kode file tgs_kasus.php
 1. Kelas Abstrak Jurnal:
