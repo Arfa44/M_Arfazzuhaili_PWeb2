@@ -37,7 +37,7 @@ Mahasiswa_Abs dan Dosen_Abs mewarisi dari class Pengguna_Abs
 Mahasiswa_Abs dan Dosen_Abs mengimplementasikan metode tersebut.
 
 ##Penjelasan jobsheet 3
-Penjelasan Kode
+###Penjelasan Kode file jobsheet3.php
 1. Inheritance:
 Kelas Person adalah induk dari Dosen dan Mahasiswa. yang memiliki atribut name dan metode getName().
 Kelas Mahasiswa dan Dosen mewarisi dari Person, sehingga keduanya dapat menggunakan metode getName() dan setName().
@@ -53,6 +53,19 @@ Kelas abstrak Jurnal memiliki metode abstrak pengajuanJurnal(), yang diimplement
 Kelas Course:
 Kelas abstrak ini memiliki metode abstrak getCourseDetails(), yang diimplementasikan oleh kelas OnlineCourse dan OfflineCourse untuk memberikan detail yang sesuai.
 
+###penjelasan kode file tgs_kasus.php
+1. Kelas Abstrak Jurnal:
+Kelas ini memiliki metode abstrak ajukanJurnal(), yang harus diimplementasikan oleh kelas turunan.
+2. Kelas Person:
+Kelas dasar ini memiliki atribut name dan konstruktor untuk menginisialisasi nama.
+3. Kelas Dosen:
+Mewarisi dari Person.
+Memiliki atribut privat nidn dan metode getNidn() untuk mendapatkan nilai NIDN.
+Mengimplementasikan metode ajukanJurnal() untuk memberikan cara pengajuan jurnal khusus untuk dosen.
+4. Kelas Mahasiswa:
+Juga mewarisi dari Person.
+Memiliki atribut privat nim dan metode getNim() untuk mendapatkan nilai NIM.
+Mengimplementasikan metode ajukanJurnal() untuk memberikan cara pengajuan jurnal khusus untuk mahasiswa
 
 
 Cara Menjalankan:
