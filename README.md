@@ -3,7 +3,9 @@ Tugas Pemrograman Web 2
 
 
 **Penjelasan Kode**
-##**Penjelasan Jobsheet 1**
+
+
+**Penjelasan Jobsheet 1**
 1. Class Mahasiswa:
 Atribut: Memiliki nama, nim, dan jurusan, yang bersifat private untuk menjaga encapsulation.
 Constructor: Menginisialisasi atribut saat objek dibuat.
