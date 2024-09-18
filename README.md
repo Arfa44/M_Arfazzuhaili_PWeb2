@@ -29,13 +29,14 @@ Pengguna memiliki atribut nama dan metode untuk mengatur serta mendapatkan nilai
 Dosen mewarisi dari Pengguna dan menambahkan atribut mataKuliah.
 3. Polymorphism:
 Pengguna_P adalah kelas dasar dengan metode aksesFitur().
+Mahasiswa_P dan Dosen_P mewarisi dari class Pengguna_P
 Mahasiswa_P dan Dosen_P mengoverride metode aksesFitur() dengan implementasi masing-masing.
 4. Abstraction:
 Kelas abstrak Pengguna_Abs didefinisikan dengan metode abstrak aksesFitur().
+Mahasiswa_Abs dan Dosen_Abs mewarisi dari class Pengguna_Abs
 Mahasiswa_Abs dan Dosen_Abs mengimplementasikan metode tersebut.
 
-
-##Penjelasan jobsheet 2
+##Penjelasan jobsheet 3
 Penjelasan Kode
 1. Inheritance:
 Kelas Person adalah induk dari Dosen dan Mahasiswa. yang memiliki atribut name dan metode getName().
