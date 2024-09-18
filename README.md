@@ -5,7 +5,7 @@ Tugas Pemrograman Web 2
 **Penjelasan Kode**
 
 
-**Penjelasan Jobsheet 1**
+## Penjelasan Jobsheet 1
 1. Class Mahasiswa:
 Atribut: Memiliki nama, nim, dan jurusan, yang bersifat private untuk menjaga encapsulation.
 Constructor: Menginisialisasi atribut saat objek dibuat.
@@ -20,7 +20,7 @@ Metode tampilkanDosen(): Menampilkan informasi dosen.
 
 
 
-##Penjelasan jobsheet 2
+## Penjelasan jobsheet 2
 Penjelasan Kode :
 1. Class Mahasiswa:
 Memiliki atribut nama, nim, dan jurusan yang bersifat private.
