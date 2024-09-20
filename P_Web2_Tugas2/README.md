@@ -61,3 +61,13 @@ AdminLTE.io reserves the right to change the license of future releases.
 - [Pickaface](https://pickaface.net/)
 - [Unsplash](https://unsplash.com/)
 - [Uifaces](http://uifaces.com/)
+
+
+# Pemrograman Web 2 Tugas 2
+## Cara Menjalankan....
+1. Import Database yang sudah ada, dengan nama database "university"
+2. Simpan kode di atas dalam file dengan ekstensi .php, misalnya tugas2.php.
+3. Hidupkan server lokal dulu, bisa menggunakan Xampp,Laragon atau sejenisnya.
+4. Buka terminal/command prompt atau  ke web localhost .
+5. Arahkan ke direktori tempat file disimpan.
+6. Jalankan perintah: php tugas2.php.
