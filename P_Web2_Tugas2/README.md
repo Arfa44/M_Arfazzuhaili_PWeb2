@@ -9,7 +9,8 @@
 6. Jalankan perintah: php tugas2.php.
 
 ## Penjelasan Kode
-1. Disini kita mempunyai 1 program utuh yang isinya
+### 1. Pada kode program php ini, kita  menggunakan database MySQL
+### 2. Disini kita mempunyai 1 program utuh yang isinya
 - class Database 
 - class SuratTugas
 - class SuratTugasKereta (mewarisi data dari class SuratTugas)
@@ -22,7 +23,7 @@
 - class PermohonanIzinIV (mewarisi data dari class PermohonanIzin)
 - class Dosen
 
-2. Setiap class mempunyai fungsi masing-masing
+### 3. Setiap class mempunyai fungsi masing-masing
 - class Database -- untuk mengatur koneksi ke Database
 - class SuratTugas -- digunakan untuk mengelola data dari tabel `surat_tugas`
 - class SuratTugasKereta -- Override fungsi untuk menampilkan data, hanya jika transportasi adalah 'Kereta'
