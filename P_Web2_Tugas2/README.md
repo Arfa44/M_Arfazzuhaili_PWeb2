@@ -24,7 +24,7 @@
 
 2. Setiap class mempunyai fungsi masing-masing
 - class Database
-  Untuk mengatur koneksi ke Database
+-- Untuk mengatur koneksi ke Database
 - class SuratTugas
   digunakan untuk mengelola data dari tabel `surat_tugas`
 - class SuratTugasKereta
