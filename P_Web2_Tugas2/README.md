@@ -23,17 +23,16 @@
 - class Dosen
 
 2. Setiap class mempunyai fungsi masing-masing
-- class Database
--- Untuk mengatur koneksi ke Database
-- class SuratTugas
-  digunakan untuk mengelola data dari tabel `surat_tugas`
-- class SuratTugasKereta
-  turunan dari SuratTugas, menampilkan hanya data dengan transportasi 'Kereta'
-- class SuratTugasPesawat (mewarisi data dari class SuratTugas)
-- class SuratTugasPernikahan (mewarisi data dari class SuratTugas)
-- class PermohonanIzin
-- class PermohonanIzinI (mewarisi data dari class PermohonanIzin)
-- class PermohonanIzinII (mewarisi data dari class PermohonanIzin)
-- class PermohonanIzinIII (mewarisi data dari class PermohonanIzin)
-- class PermohonanIzinIV (mewarisi data dari class PermohonanIzin)
-- class Dosen
+- class Database -- untuk mengatur koneksi ke Database
+- class SuratTugas -- digunakan untuk mengelola data dari tabel `surat_tugas`
+- class SuratTugasKereta -- Override fungsi untuk menampilkan data, hanya jika transportasi adalah 'Kereta'
+- class SuratTugasPesawat -- Override fungsi untuk menampilkan data, hanya jika transportasi adalah 'Pesawat'
+- class SuratTugasPernikahan -- Override fungsi untuk menampilkan data, hanya jika keperluan adalah 'Pernikahan'
+- class PermohonanIzin -- digunakan untuk mengelola data dari tabel `permohonan_izin`
+- class PermohonanIzinI -- Override fungsi untuk menampilkan data, hanya jika pangkat_jabatan adalah 'I'
+- class PermohonanIzinII -- Override fungsi untuk menampilkan data, hanya jika pangkat_jabatan adalah 'II'
+- class PermohonanIzinIII -- Override fungsi untuk menampilkan data, hanya jika pangkat_jabatan adalah 'III'
+- class PermohonanIzinIV -- Override fungsi untuk menampilkan data, hanya jika pangkat_jabatan adalah 'IV'
+- class Dosen -- digunakan untuk mengelola data dari tabel `dosen`
+
+
