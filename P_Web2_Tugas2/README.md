@@ -45,4 +45,15 @@
 - class Dosen -- digunakan untuk mengelola data dari tabel `dosen`. 
 - fungsi navigation bar untuk berpindah ke tabel lain. 
 - polymorphism untuk menampilkan data pada class "SuratTugasKereta, SuratTugasPesawat, SuratTugasPernikahan, PermohonanIzinI, PermohonanIzinII, PermohonanIzinIII, PermohonanIzinIV"
+
+
+
+### Database
+1. Nama Database : university
+2. Tabel yang dimiliki :
+- surat_tugas = 'surat_tugas_id (primary key), nomor, nama_dsn, tgl_surat_tugas, tujuan, transportasi, keperluan, dosen_id(foreign key)
+- permohonan_izin = 'izin_id (primary key), nama_dsn, nip, pangkat_jabatan, jabatan, unit_kerja, dosen_id (foreign key)'
+- dosen = 'dosen_id (primary key), nidn, nip_dsn, nama_dsn, alamat, user_id'
+
+  
 ### Untuk penjelasan yang lebih rinci, sudah  saya tambahkan komentar di kode tersebut
