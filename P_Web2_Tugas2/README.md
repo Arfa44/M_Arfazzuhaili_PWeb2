@@ -44,5 +44,5 @@
 - class PermohonanIzinIV -- Override fungsi untuk menampilkan data, hanya jika pangkat_jabatan adalah 'IV'
 - class Dosen -- digunakan untuk mengelola data dari tabel `dosen`. 
 - fungsi navigation bar untuk berpindah ke tabel lain. 
-- polymorphism untuk menampilkan data pada class "SuratTabelKereta, SuratTugasPesawat, SuratTugasPernikahan, PermohonanIzinI, PermohonanIzinII, PermohonanIzinIII, PermohonanIzinIV"
+- polymorphism untuk menampilkan data pada class "SuratTugasKereta, SuratTugasPesawat, SuratTugasPernikahan, PermohonanIzinI, PermohonanIzinII, PermohonanIzinIII, PermohonanIzinIV"
 ### Untuk penjelasan yang lebih rinci, sudah  saya tambahkan komentar di kode tersebut
