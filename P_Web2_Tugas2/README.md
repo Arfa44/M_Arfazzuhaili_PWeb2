@@ -55,5 +55,17 @@
 - permohonan_izin = 'izin_id (primary key), nama_dsn, nip, pangkat_jabatan, jabatan, unit_kerja, dosen_id (foreign key)'
 - dosen = 'dosen_id (primary key), nidn, nip_dsn, nama_dsn, alamat, user_id'
 
+
+### Daftar Tabel yang muncul di Navigation Bar
+- Surat Tugas
+- Permohonan Izin
+- Daftar Dosen
+- Surat Tugas Transportasi Kereta
+- Surat Tugas Transportasi Pesawat
+- Surat Tugas Keperluan Pernikahan
+- Permohonan Izin Pangkat Jabatan I
+- Permohonan Izin Pangkat Jabatan II
+- Permohonan Izin Pangkat Jabatan III
+- Permohonan Izin Pangkat Jabatan IV
   
 ### Untuk penjelasan yang lebih rinci, sudah  saya tambahkan komentar di kode tersebut
